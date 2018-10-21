@@ -1,0 +1,227 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+*{
+	font-family:;
+}
+.hero1{
+    background-color: #1a1a38;
+  height: 90px;
+}
+.hero1 .logo{
+  padding: 15px;
+}
+ .nav{
+  margin-top: 20px;
+}
+ .nav li a{
+  color: #ceced1;
+}
+.nav li a:hover{
+  color: #f25cb2;
+  border-bottom: 2px solid #f25cb2;
+}
+.nav li a .fa{
+  font-size: 24px;
+}
+.nav li a .fa-chevron-down{
+  font-size: 18px!important;
+}
+
+/* Header section End*/
+ /*payment section start*/
+.payment-section{
+  width: 100%;
+  height: 100%;
+}
+.form h3{
+	font-size: 24px;
+}
+ .btn{
+	color: #f25cb2;
+ font-size:14px;
+ border: 1px solid #f25cb2!important;
+ border-radius: 0px!important;
+ padding: 10px 20px!important;
+ background-color: transparent;
+ margin: 20px 10px;
+
+}
+.btn img{
+	width: 17px;
+}
+.btn:hover{
+    background-color: #ec008c!important;
+  color: #fff!important;
+}
+.payment-card{
+	width: 100%;
+	margin-top: 10%;
+}
+.name{
+	width: 100%;
+	padding: 6px 20px;
+}
+.adress{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+label{
+	padding-top: 10px;
+}
+input{
+	color: #494949!important;
+}
+.adress input{
+	width: 100%;
+	padding: 6px 75px;
+}
+.form-control{
+	width: 320px!important;
+	height: 41px!important;
+}
+.list{
+	display: flex;
+	justify-content: space-between;
+}
+.option{
+ width: 100%!important;
+ margin-right: 10px!important;
+}
+.ccv{
+	padding: 6px 10px;
+}
+.order-summary{
+	padding: 20px;
+	margin-top: 20%;
+}
+.card-order .table td{
+	font-size: 10px;
+	font-weight: bold;
+}
+/*payment section end*/
+
+
+/* banner section Start */
+.banner-section{
+background-image: url("images/Bar.png");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 210px;
+margin-top: 50px;
+}
+.banner-section .banner{
+ 
+}
+.banner-section .avail{
+	margin-top: 15%;
+}
+.banner-section .avail h2{
+color: #fff;
+font-size: 18px;
+}
+.banner-section .avail p{
+color: #fff;
+font-size: 14px;
+}
+.banner-section .input{
+	margin: 15% 15%;
+}
+.banner-section .input input{
+	color: #fff;
+	padding: 10px 150px 10px 20px;
+	background-color: transparent;
+	border-color: #fff;
+	font-size: 12px;
+	opacity: 1;
+
+}
+.banner-section .input input::placeholder{
+	color: #fff;
+	background-color: transparent;
+	margin-right: 20%;
+}
+/* banner section End */
+
+/*form section start*/
+.form-section{
+	width: 100%;
+	padding-top: 80px;
+	background-color: #faf9f7;
+}
+.form-section .box-text p{
+  text-align: center;
+  color: #999999;
+}
+.form-section .box-text .text{
+	width: 800px;
+	text-align: center;
+	margin:20px auto;
+}
+.form-section .box-text h5{
+  text-align: center;
+  color: #323232;
+  padding: 0px;
+  margin-bottom: 10px;
+
+}
+.form-section .box-text h5 span{
+  color: #707070;
+}
+.form-section .gift-image{
+  width: 100%;
+  height: 440px;
+  background-color: #e9e9e9;
+  margin-top: 80px;
+}
+.form-section .gift-image img{
+  padding: 75px 55px;
+}
+.form-section .form {
+  margin: 50px auto;
+}
+.form-section .form input{
+	padding: 8px 80px 8px 20px;
+	margin-right: 20px;
+
+	
+}
+.form-section .form .submit{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+
+/*form section end*/
+/*footer section start*/
+.footer-section{
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	
+}
+.footer-section .social-icons{
+	width: 100%;
+	margin: 0 auto;
+}
+.footer-section .social-icons .footer-logo{
+	display: flex;
+	justify-content: center;
+}
+.footer{
+	border-top: 1px solid #dcdcdc;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+.footer p{
+	font-size: 16px;
+	color: #b8b3b3;
+}
+/*footer section End*/
+
+
